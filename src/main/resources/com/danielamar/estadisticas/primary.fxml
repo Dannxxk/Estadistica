@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="389.0" prefWidth="560.0" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.danielamar.estadisticas.PrimaryController">
+   <children>
+       <Label text="Lista de Alumnos" />
+<TextArea fx:id="txtListaAlumnos" prefHeight="200.0" prefWidth="200.0" />
+
+      <Label text="Estadisticas" />
+      <Label text="\% de Aprobados">
+         <graphic>
+            <TextField fx:id="txtAprobados" />      
+         </graphic>
+      </Label>
+      <Label text="\% de Reprobados">
+         <graphic>
+            <TextField fx:id="txtReprobados"/>
+         </graphic>
+      </Label>
+      <Label text="Mejor calificacion">
+         <graphic>
+            <TextField fx:id="txtMejor"/>
+         </graphic>
+      </Label>
+      <Label text="Peor calificacion">
+         <graphic>
+            <TextField fx:id="txtPeor"/>
+         </graphic>
+      </Label>
+      <Label text="Promedio">
+         <graphic>
+            <TextField fx:id="txtPromedio"/>
+         </graphic>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
+
